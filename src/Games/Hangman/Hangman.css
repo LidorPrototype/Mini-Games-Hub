@@ -1,0 +1,26 @@
+.app-wrapper {
+  height: 100vh;
+  background: radial-gradient(ellipse at bottom left, #dbeafe, #e0e7ff, #e9d5ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.hangman-game {
+  font-family: 'Adlam Display', sans-serif;
+  max-width: 768px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.keyboard-wrapper {
+  align-self: stretch;
+}

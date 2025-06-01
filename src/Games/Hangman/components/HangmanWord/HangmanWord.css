@@ -1,0 +1,31 @@
+.hangman-word {
+  display: flex;
+  gap: 12px;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (min-width: 1024px) {
+  .hangman-word {
+    font-size: 3.5rem;
+  }
+}
+
+.letter-slot {
+  border-bottom: 8px solid black;
+  border-radius: 4px;
+  padding: 0 8px;
+}
+
+.letter {
+  color: #1C1917;
+}
+
+.letter.hidden {
+  visibility: hidden;
+}
+
+.letter.missed {
+  color: #BE123C;
+}
