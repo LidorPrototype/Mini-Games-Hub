@@ -1,0 +1,19 @@
+container {
+    text-align: 'center';
+    padding: '60px 20px';
+    font-family: 'sans-serif';
+}
+code {
+    font-size: '72px';
+    font-weight: 'bold';
+    margin-bottom: '10px';
+}
+message {
+    font-size: '20px';
+    margin-bottom: '30px';
+}
+link {
+    font-size: '16px';
+    text-decoration: 'none';
+    color: '#007bff';
+}

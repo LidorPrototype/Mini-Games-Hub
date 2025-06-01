@@ -1,0 +1,38 @@
+#game {
+    background: var(--content-background-color);
+    border-radius: var(--default-border-radius);
+    padding: 3vmin;
+    box-shadow: var(--box-shadow);
+}
+
+h1 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 2vmin;
+    font-size: var(--main-title-font-size);
+}
+
+.player-score-row {
+    color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background: #eee;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  text-decoration: none;
+  color: #333;
+  transition: background 0.2s ease;
+}
+
+.back-button:hover {
+  background: #ddd;
+}
