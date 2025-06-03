@@ -43,7 +43,7 @@ http://lidor-mini-game-hub.surge.sh/
 To run this project on your machine:
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/Mini-Games-Hub.git
+git clone https://github.com/LidorPrototype/Mini-Games-Hub.git
 cd Mini-Games-Hub
 
 # 2. Install dependencies
@@ -64,8 +64,8 @@ src/
 │       ├── GameName.jsx
 │       └── GameName.css
 ├── pages/
-│   ├── Home.jsx         # Main page with links to games
-│   └── NotFound.jsx     # 404 fallback
+│   ├── Home/           # Main page with links to games
+│   └── NotFound/       # 404 fallback
 ├── App.jsx
 └── main.jsx
 ```
