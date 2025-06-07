@@ -8,6 +8,7 @@ import { TenziesGame } from './Games/TenziesGame/TenziesGame';
 import { Trivia } from './Games/Trivia/Trivia';
 import { BlackJack } from './Games/BlackJack/BlackJack';
 import { Calculations } from './Games/Calculations/Calculations';
+import { GuessTheColor } from './Games/GuessTheColor/GuessTheColor';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/trivia" element={<Trivia />} />
         <Route path="/blackJack" element={<BlackJack />} />
         <Route path="/calculations" element={<Calculations />} />
+        <Route path="/guessTheColor" element={<GuessTheColor />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>

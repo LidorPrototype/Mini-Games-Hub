@@ -1,0 +1,12 @@
+.timer-display {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 5px;
+}
+
+.timer-display.urgent {
+  color: red;
+  font-weight: bold;
+  animation: pulse 0.5s infinite;
+}

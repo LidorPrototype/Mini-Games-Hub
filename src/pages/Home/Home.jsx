@@ -45,6 +45,11 @@ export const Home = () => {
       path: '/calculations',
       image: calculationsImage,
     },
+    {
+      name: 'GuessTheColor',
+      path: '/guessTheColor',
+      image: calculationsImage,
+    },
   ];
 
   return (

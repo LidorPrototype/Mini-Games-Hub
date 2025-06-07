@@ -1,0 +1,67 @@
+.cool-button {
+  position: relative;
+  padding: 12px 24px;
+  border-radius: 1rem;
+  font-weight: 600;
+  color: white;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+  overflow: hidden;
+  z-index: 0;
+  margin: 5px;
+}
+
+.cool-button::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, transparent 70%);
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  transform: scale(0);
+  opacity: 0;
+  z-index: -1;
+}
+
+.cool-button:hover::before {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.cool-button:hover {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
+}
+
+.cool-button.correct {
+  background-color: #d4edda;
+  border: 2px solid #28a745;
+  color: #155724;
+  animation: pulse 0.3s ease;
+}
+
+.cool-button.wrong {
+  background-color: #f8d7da;
+  border: 2px solid #dc3545;
+  color: #721c24;
+  animation: shake 0.3s ease;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes shake {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-3px); }
+  50% { transform: translateX(3px); }
+  75% { transform: translateX(-3px); }
+  100% { transform: translateX(0); }
+}

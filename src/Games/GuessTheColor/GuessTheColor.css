@@ -1,0 +1,33 @@
+.GuessTheColor {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+
+.color-cont {
+  width: 400px;
+  height: 200px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin: 0 auto 20px;
+  transition: background-color 0.4s ease-in-out;
+}
+
+.button-group-cont {
+  margin: 0;
+}
+
+.lbl-guess-checker {
+  margin: 0;
+}
+
+.correct {
+  color: "green";
+}
+
+.wrong {
+  color: "red";
+}

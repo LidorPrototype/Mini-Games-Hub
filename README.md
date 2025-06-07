@@ -14,11 +14,12 @@ A collection of classic mini-games built with **React** and **Vite** — created
 
 - ✅ Tic Tac Toe
 - ✅ Hangman
-- ✅ Colors Memory Game
-- ✅ Tenzies Game
+- ✅ Colors Memory
+- ✅ Tenzies
 - ✅ Trivia
 - ✅ Blackjack
-- ✅ Calculation Game
+- ✅ Calculation
+- ✅ Guess The Color
 
 > New games will be added continuously as the project evolves!
 
