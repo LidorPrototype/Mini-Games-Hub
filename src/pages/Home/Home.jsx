@@ -7,6 +7,7 @@ import tenziesImage from '../../assets/tenzies-game.png';
 import triviaImage from '../../assets/trivia.png';
 import blackjackImage from '../../assets/blackJack.png';
 import calculationsImage from '../../assets/calculations.png';
+import guessTheColorImage from '../../assets/guess-the-color.png';
 
 export const Home = () => {
   const games = [
@@ -48,7 +49,7 @@ export const Home = () => {
     {
       name: 'GuessTheColor',
       path: '/guessTheColor',
-      image: calculationsImage,
+      image: guessTheColorImage,
     },
   ];
 
