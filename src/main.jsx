@@ -5,15 +5,14 @@ import './index.css'
 import App from './App.jsx'
 
 const environment = import.meta.env.VITE_ENVIRONMENT?.trim() || "unknown";
-console.log("ENV:", import.meta.env.VITE_ENVIRONMENT);
 let color;
 /*
  * #16a34a
  * #dc2626
  * #eab308
 **/
-if (environment === "preprod") color = "#16a34a";
-else if (environment === "prod") color = "#dc2626";
+if (environment === "Pre-Prod") color = "#16a34a";
+else if (environment === "Production") color = "#dc2626";
 else if (environment === "unknown") color = "#eab308";
 
 createRoot(document.getElementById('root')).render(
