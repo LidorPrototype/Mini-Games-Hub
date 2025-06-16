@@ -39,7 +39,7 @@ A collection of classic mini-games built with **React** and **Vite** — created
 You can try the latest version live at:
 | Environment |                                             Link                                             |
 |-------------|----------------------------------------------------------------------------------------------|
-|   PREPROD   | [Mini Game Hub Pre-Prod](https://68501bf7f12af90f3adbdb10--lidor-mini-game-hub.netlify.app/) |
+|   PREPROD   | [Mini Game Hub Pre-Prod](https://preprod--lidor-mini-game-hub.netlify.app)                   |
 |    PROD     | [Mini Game Hub Prod](https://lidor-mini-game-hub.netlify.app/)                               | 
 
 ---
