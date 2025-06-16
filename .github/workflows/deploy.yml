@@ -29,7 +29,9 @@ jobs:
         run: npm ci
 
       - name: Build project
-        run: VITE_ENVIRONMENT=${{ github.event.inputs.environment }} npm run build
+        run: |
+          export VITE_ENVIRONMENT=${{ github.event.inputs.environment }}
+          npm run build
 
       - name: Install Netlify CLI
         run: npm install -g netlify-cli
