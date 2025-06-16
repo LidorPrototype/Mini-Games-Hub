@@ -67,7 +67,7 @@ export const Home = () => {
         ))}
       </div>
       <footer className="footer">
-        <p>&copy; Author: Lidor ES Cowboy</p>
+        <p>&copy; Author: Lidor Cowboy 🤠</p>
       </footer>
     </div>
   );
