@@ -10,6 +10,16 @@ A collection of classic mini-games built with **React** and **Vite** — created
 
 ---
 
+## 🌐 Live Demo
+
+You can try the latest version live at:
+| Environment |                                             Link                                             |
+|-------------|----------------------------------------------------------------------------------------------|
+|   PREPROD   | [Mini Game Hub Pre-Prod](https://preprod--lidor-mini-game-hub.netlify.app)                   |
+|    PROD     | [Mini Game Hub Prod](https://lidor-mini-game-hub.netlify.app/)                               | 
+
+---
+
 ## 🕹️ Included Games
 
 - ✅ Tic Tac Toe
@@ -35,16 +45,6 @@ A collection of classic mini-games built with **React** and **Vite** — created
 
 ---
 
-## 🌐 Live Demo
-
-You can try the latest version live at:
-| Environment |                                             Link                                             |
-|-------------|----------------------------------------------------------------------------------------------|
-|   PREPROD   | [Mini Game Hub Pre-Prod](https://preprod--lidor-mini-game-hub.netlify.app)                   |
-|    PROD     | [Mini Game Hub Prod](https://lidor-mini-game-hub.netlify.app/)                               | 
-
----
-
 ## 🧩 How to Run Locally
 
 To run this project on your machine:
@@ -56,7 +56,7 @@ cd Mini-Games-Hub
 # 2. Install dependencies
 npm install
 
-# 3. Start development server
+# 3. Start the development server
 npm run dev
 ```
 Then open `http://localhost:5173` in your browser.
