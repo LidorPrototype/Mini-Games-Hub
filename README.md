@@ -37,8 +37,10 @@ A collection of classic mini-games built with **React** and **Vite** — created
 ## 🌐 Live Demo
 
 You can try the latest version live at:
-PREPROD: https://68501bf7f12af90f3adbdb10--lidor-mini-game-hub.netlify.app/
-PROD:    https://68501d06bc67c1a9bc1fe0c6--lidor-mini-game-hub.netlify.app/
+| Environment | Link |
+|------|------------------|
+| PREPROD | [`npm install -g netlify-cli`](https://68501bf7f12af90f3adbdb10--lidor-mini-game-hub.netlify.app/) |
+| PROD | [`npm run build`](https://68501d06bc67c1a9bc1fe0c6--lidor-mini-game-hub.netlify.app/) | 
 
 ## 🧩 How to Run Locally
 
