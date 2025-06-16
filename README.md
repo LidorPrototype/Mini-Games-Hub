@@ -37,10 +37,12 @@ A collection of classic mini-games built with **React** and **Vite** — created
 ## 🌐 Live Demo
 
 You can try the latest version live at:
-| Environment | Link |
-|------|------------------|
-| PREPROD | https://68501bf7f12af90f3adbdb10--lidor-mini-game-hub.netlify.app/ |
-| PROD | https://68501d06bc67c1a9bc1fe0c6--lidor-mini-game-hub.netlify.app/ | 
+| Environment |                                             Link                                             |
+|-------------|----------------------------------------------------------------------------------------------|
+|   PREPROD   | [Mini Game Hub Pre-Prod](https://68501bf7f12af90f3adbdb10--lidor-mini-game-hub.netlify.app/) |
+|    PROD     |   [Mini Game Hub Prod](https://68501d06bc67c1a9bc1fe0c6--lidor-mini-game-hub.netlify.app/)   | 
+
+---
 
 ## 🧩 How to Run Locally
 
@@ -58,6 +60,8 @@ npm run dev
 ```
 Then open `http://localhost:5173` in your browser.
 
+---
+
 ## 📁 Project Structure
 ```text
 src/
@@ -73,6 +77,8 @@ src/
 ├── App.jsx
 └── main.jsx
 ```
+
+---
 
 ## 📄 License
 
