@@ -6,11 +6,11 @@ on:
       environment:
         description: 'Target environment'
         required: true
-        default: 'preprod'
+        default: 'Pre-Prod'
         type: choice
         options:
-          - preprod
-          - prod
+          - 'Pre-Prod'
+          - 'Production'
 
 jobs:
   deploy:
