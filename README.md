@@ -30,14 +30,15 @@ A collection of classic mini-games built with **React** and **Vite** — created
 - [React (JSX)](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
 - CSS Modules (per component)
-- Static deployment via [Surge.sh](https://surge.sh/)
+- Static deployment via [Netlify](https://www.netlify.com/)
 
 ---
 
 ## 🌐 Live Demo
 
 You can try the latest version live at:
-http://lidor-mini-game-hub.surge.sh/
+PREPROD: https://68501bf7f12af90f3adbdb10--lidor-mini-game-hub.netlify.app/
+PROD:    https://68501d06bc67c1a9bc1fe0c6--lidor-mini-game-hub.netlify.app/
 
 ## 🧩 How to Run Locally
 
