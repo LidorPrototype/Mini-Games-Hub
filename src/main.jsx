@@ -5,6 +5,7 @@ import './index.css'
 import App from './App.jsx'
 
 const environment = import.meta.env.VITE_ENVIRONMENT?.trim() || "unknown";
+console.log("ENV:", import.meta.env.VITE_ENVIRONMENT);
 let color;
 /*
  * #16a34a
