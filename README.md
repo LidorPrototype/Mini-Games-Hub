@@ -31,6 +31,7 @@ A collection of classic mini-games built with **React** and **Vite** — created
 - [Vite](https://vitejs.dev/)
 - CSS Modules (per component)
 - Static deployment via [Netlify](https://www.netlify.com/)
+    - [Netlify App Console](https://app.netlify.com/)
 
 ---
 
